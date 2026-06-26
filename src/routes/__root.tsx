@@ -87,7 +87,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Glen's Bakehouse is a beloved Bengaluru bakery & café in HRBR Layout serving artisan coffee, freshly baked goods, hearty breakfasts, pizzas, sandwiches and signature desserts.",
       },
       { name: "author", content: "Glen's Bakehouse" },
-      { property: "og:title", content: "Glen's Bakehouse — Freshly Baked Happiness Every Day" },
+      { property: "og:title", content: "Glen's Bakehouse — Freshly Baked Happiness Every Day | Bengaluru" },
       {
         property: "og:description",
         content:
@@ -97,6 +97,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Glen's Bakehouse" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#f5e9c9" },
+      { name: "twitter:title", content: "Glen's Bakehouse — Freshly Baked Happiness Every Day | Bengaluru" },
+      { name: "description", content: "Glen's Bakehouse Digital is a modern, premium restaurant website showcasing a bakery and café's offerings." },
+      { property: "og:description", content: "Glen's Bakehouse Digital is a modern, premium restaurant website showcasing a bakery and café's offerings." },
+      { name: "twitter:description", content: "Glen's Bakehouse Digital is a modern, premium restaurant website showcasing a bakery and café's offerings." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c9355d42-f34b-4292-9447-3acf1890f8d3/id-preview-a6b13c8b--9f25f738-f394-4813-b82b-f0220e78b33b.lovable.app-1782497196929.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c9355d42-f34b-4292-9447-3acf1890f8d3/id-preview-a6b13c8b--9f25f738-f394-4813-b82b-f0220e78b33b.lovable.app-1782497196929.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
